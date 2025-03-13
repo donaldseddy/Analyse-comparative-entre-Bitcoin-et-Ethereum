@@ -1,0 +1,46 @@
+📂 Crypto_Analysis  
+│  
+├── 📄 README.md                 # Présentation du projet  
+├── 📄 requirements.txt          # Liste des dépendances Python  
+├── 📄 config.py                 # Fichier de configuration (clés API, paramètres)  
+│  
+├── 📂 data                      # Dossier pour les données  
+│   ├── 📄 raw                   # Données brutes récupérées (CSV, JSON, API)  
+│   ├── 📄 processed             # Données nettoyées et transformées  
+│   ├── 📄 reports               # Rapports et visualisations  
+│  
+├── 📂 notebooks                 # Notebooks Jupyter pour l'analyse exploratoire  
+│   ├── 📄 1_data_collection.ipynb   # Récupération des données  
+│   ├── 📄 2_data_cleaning.ipynb     # Préparation et nettoyage  
+│   ├── 📄 3_exploratory_analysis.ipynb # Analyse exploratoire  
+│   ├── 📄 4_visualization.ipynb      # Graphiques et insights  
+│   ├── 📄 5_prediction.ipynb         # Modélisation et prévisions (optionnel)  
+│  
+├── 📂 scripts                   # Scripts Python automatisés  
+│   ├── 📄 collect_data.py        # Script pour récupérer les données (API, CSV)  
+│   ├── 📄 clean_data.py          # Nettoyage et prétraitement des données  
+│   ├── 📄 analyze_data.py        # Analyse statistique et indicateurs clés  
+│   ├── 📄 visualize_data.py      # Création de graphiques  
+│   ├── 📄 predict_trends.py      # Modélisation et prédiction (optionnel)  
+│  
+├── 📂 models                    # Dossier pour les modèles de Machine Learning  
+│   ├── 📄 model.pkl              # Modèle sauvegardé  
+│   ├── 📄 train_model.py         # Script d'entraînement  
+│   ├── 📄 evaluate_model.py      # Évaluation du modèle  
+│  
+├── 📂 reports                   # Rapports finaux  
+│   ├── 📄 summary.pdf            # Rapport d’analyse  
+│   ├── 📄 slides.pptx            # Présentation du projet  
+│  
+├── 📂 logs                      # Logs des exécutions des scripts  
+│   ├── 📄 data_collection.log    # Logs de récupération des données  
+│   ├── 📄 analysis.log           # Logs des analyses  
+│  
+├── 📂 tests                     # Tests unitaires et validation des scripts  
+│   ├── 📄 test_collect.py        # Test des fonctions de collecte  
+│   ├── 📄 test_clean.py          # Test du nettoyage des données  
+│  
+└── 📂 docs                      # Documentation du projet  
+    ├── 📄 methodology.md         # Méthodologie détaillée  
+    ├── 📄 data_sources.md        # Explication des sources de données  
+    ├── 📄 API_reference.md       # Documentation des API utilisées  
